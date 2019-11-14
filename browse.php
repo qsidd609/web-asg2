@@ -35,7 +35,7 @@
                     
                     <picture></picture>
                     
-                    <label>Title: </label>
+                    <label><h3>Title: </h3></label>
                     <span id="photoTitle"></span> 
 
                     <section>
