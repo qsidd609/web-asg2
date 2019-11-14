@@ -5,6 +5,10 @@ body {
     border-style: solid;
     padding: 10px;
     margin: 0;
+
+    background-color: #E0E7E9;
+    font-family:"Times New Roman", Times, serif;
+    font-size: 0.8rem;
 }
 
 header,
@@ -12,6 +16,12 @@ main {
     border-style: solid;
     margin: 5px;
     padding: 10px;
+
+    background-color:#A3C6C4 ;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 150%;
 }
 
 ul.topnav {
