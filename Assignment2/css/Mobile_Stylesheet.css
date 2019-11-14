@@ -1,0 +1,42 @@
+div {
+    box-shadow: 0 2px 4px black;
+    background: white;
+}
+
+#profilePageBody {
+    display: grid;
+    grid-auto-rows: 50px repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    background: aliceblue;
+}
+
+#uploadPageForm {
+    box-shadow: 0 2px 4px black;
+    background: white;
+}
+
+#uploadPageBody {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    background: aliceblue;
+}
+.searchForPhoto{
+    width: 90%;
+}
+
+input[type=submit], input[type=file] {
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    background: #16a085;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}

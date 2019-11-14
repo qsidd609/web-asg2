@@ -1,0 +1,68 @@
+div {
+    box-shadow: 0 2px 4px black;
+    background: white;
+}
+
+input[type=submit], input[type=file] {
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    background: #16a085;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+#profilePageBody {
+    display: grid;
+    grid-auto-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    background: aliceblue;
+}
+
+#profilePageHeader {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+#profilePageUserInfo {
+    grid-column: 1/2;
+    grid-row: 2/4;
+}
+
+#profilePageSearch {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#profilePageFavoritedImages {
+    grid-column: 1/2;
+    grid-row: 4/6;
+}
+
+#profilePageUserImagesMayLike {
+    grid-column: 2/3;
+    grid-row: 3/6;
+}
+
+#uploadPageForm {
+    box-shadow: 0 2px 4px black;
+    background: white;
+}
+
+#uploadPageBody {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    background: aliceblue;
+}
+.searchForPhoto{
+    width: 70%;
+}
