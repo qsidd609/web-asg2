@@ -1,0 +1,54 @@
+
+body {
+    
+    font-family: 'Signika', sans-serif;
+    font-size: 0.8rem;
+    overflow: auto;
+    background: aliceblue;
+    
+    
+}
+.container{
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    padding: 35px;
+    border-style: outset;
+    box-shadow: 0 2px 4px black;
+    background: #FFF;
+    
+}
+
+input {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+button{
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    background: #16a085;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+label{
+    padding: 15px;
+    padding-right: 25px;
+    font-family: 'Signika', sans-serif; 
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+
