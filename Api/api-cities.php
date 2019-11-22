@@ -8,4 +8,6 @@
    
     getAllCities($connection);
 
+    getCitiesByCountry($connection, $iso);
+
 ?>

@@ -8,4 +8,6 @@
    
     getAllCountries($connection);
 
+    getSingleCountries($connection, $iso);
+
 ?>
