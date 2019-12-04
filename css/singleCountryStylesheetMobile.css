@@ -1,0 +1,68 @@
+#singleCountryBody {
+    width = 100vh;
+    height: 100vh;
+    background-color: black;
+    }
+
+#singleCountryHeader{
+    text-align: center;
+    background-color: white;
+}
+
+h3{
+    text-align: center;
+}
+
+#singleCountryGrid1{
+    background-color: white;
+}
+
+#singleCountryCountryFilters{
+    text-align: center;
+    background-color: white;
+}
+
+#singleCountryCountryList{
+    background-color: white;
+}
+
+#singleCountryCountries{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#singleCountryCities{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#singleCountryCountryCityDetails{
+    background-color: white;
+}
+
+#singleCountryTravelPhotos{
+    background-color: white;
+}
+
+#singleCountryGrid2{
+    background-color: white;
+}
+
+#singleCountryCityList{
+    background-color: white;
+}
+
+#singleCountryCountryCityMaps{
+    background-color: white;
+}
+
+#singleCountryDescription{
+    text-align: center;
+}
+
+#singleCountryInformation{
+
+}
+#singleCountryCountryDescription{
+    text-align: center;
+}
