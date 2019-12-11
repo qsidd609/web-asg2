@@ -1,0 +1,155 @@
+ @import url(https://fonts.googleapis.com/css?family=Libre+Franklin);
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+}
+
+.header {
+    width: 350px;
+    margin: 50px auto 0px;
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border:outset 1px grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+main{
+    background-image: url('map.gif');
+}
+
+form,
+.content {
+    width: 350px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 5px;
+    border:outset 1px grey;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: lightblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: rgb(38, 116, 218);
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border:outset 1px red;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+
+/* https://codewithawa.com/posts/complete-user-registration-system-using-php-and-mysql-database */
+
+header,
+main {
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border:outset 5px grey;
+    padding: 20px;
+    font-size: 150%;
+}
+
+body {
+    display: grid;
+    padding: 10px;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8rem;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: lightblue;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+.logo{
+    height:3%;
+    width: 3%;
+}

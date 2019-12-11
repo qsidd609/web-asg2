@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+
+body {
+    display: grid;
+    padding: 10px;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 25px;
+}
+
+header,
+main {
+    margin: 5px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border:outset 5px grey;
+}
+
+header{
+    //height: 150px;
+}
+
+#mainNotLogged {
+    text-align: center;
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("map.gif");
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1.25rem;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: lightblue;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+#userInfo,
+#search,
+#favorite,
+#suggestion {
+    border-style: solid;
+}
+
+#loggedIn {
+    display: grid;
+    height: 1000px;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+p {
+    object-fit: cover;
+}
+
+#userInfo {
+    overflow: auto;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border:outset 5px grey;
+}
+
+#search {
+    overflow: auto;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border:outset 5px grey;
+}
+
+#favorite {
+    overflow: auto;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border:outset 5px grey;
+}
+
+#suggestion {
+    overflow: auto;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border:outset 5px grey;
+}
+
+#login,
+#join {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+    padding: 8px 30px;
+    border-radius: 22px;
+    border:outset 2.5px grey;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#login:hover,
+#join:hover {
+    background: #16a085;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.search2 {
+    width: 50%;
+    padding: 12px 20px;
+    border-radius: 22px;
+    border:outset 2.5px grey;
+}
+
+.search {
+    width: 80%;
+    height: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    font-size: 160%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#notLoggedIn {
+    position: relative;
+    top: 35%;
+    align-items: center;
+}
+
+#filterButton {
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    border: none;
+    color: #000;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+#filterButton:hover{
+    background: #16a085;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    box-shadow: 0 2px 4px black;
+    transition: all 0.4s ease 0s;
+    color: #FFF;
+}
+
+img{
+    margin: 10px;
+}
+#loggedIn span{
+    float: right;
+    margin-right: 2px;
+
+}
+.logo{
+    height:3%;
+    width: 3%;
+}
+
+header h3{
+    position: relative;
+}

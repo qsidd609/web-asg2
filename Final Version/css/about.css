@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Franklin);
+
+.header {
+    width: 350px;
+    margin: 50px auto 0px;
+    color: white;
+    background-color: lightblue;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border:outset 1px grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+body {
+    display: grid;
+    padding: 10px;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.8rem;
+}
+
+header, main {
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border:outset 5px grey;
+    font-size: 150%;
+}
+main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("map.gif");
+    text-align: center;
+    //height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("map.gif");
+}
+.vscrolling_main { height: 100%; overflow: auto; }
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: lightblue;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+.logo{
+    height:3%;
+    width: 3%;
+}
+div{
+
+    color: black;
+    background: aliceblue;
+    text-align: center;
+    border: outset 5px grey;
+    //display: inline-block;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    overflow-wrap: break-word;
+}

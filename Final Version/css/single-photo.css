@@ -1,0 +1,197 @@
+ @import url(https://fonts.googleapis.com/css?family=Libre+Franklin);
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    //font-size: 0.8rem;
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 3fr 2fr;
+  color: #444;
+  width: 100%;
+}
+article{
+    background-color: white;
+    padding: 20px;
+}
+.header {
+    color: black;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border:outset 5px grey;
+    border-radius: 5px;
+    
+}
+
+.box {
+  background-color:#A3C6C4 ;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+/*Buttons*/
+.tab {
+  
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.header{
+    grid-column: 1 /  3;
+    grid-row: 1 /  2;
+}
+
+.leftside{
+    grid-column: 1 /  2;
+    grid-row: 2 /  3; 
+    text-align: center;
+    padding-top: 20px;
+    border:outset 5px grey;
+}
+
+.rightside{
+    grid-column: 2 /  3;
+    grid-row: 2 /  3;
+    padding: 20px;
+    border:outset 5px grey;
+}
+
+#detailsDiv{
+    margin-top: 25px;
+    border:outset 5px grey;
+    padding: 10px;
+    background-color: white;
+    /*margin-top: 0px;*/
+}
+
+#favoriteButton{
+    display: inline-block;
+    float: right;
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    background: #16a085;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;  
+}
+
+/*code from: https://www.fabriziovanmarciano.com/button-styles/*/
+.detailTab:hover, .mapTab:hover, .descriptionTab:hover{
+    background: #16a085;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -20px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
+.detailTab, .mapTab, .descriptionTab{
+    font-weight:bold;
+    box-shadow: 0 2px 4px black;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;    
+    
+}
+
+/*
+.leftside:hover #hoverBox{
+    visibility: visible;
+    opacity:0.6;
+    text-align:justify;
+    color:#000000;
+    font-size:20px;
+    padding:30px;
+    cursor: help;
+}
+*/
+
+#hoverBox{
+    margin: 15px;
+    float: left;
+    z-index: 1000;
+    background-color:aliceblue;
+    padding: 5px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    display:none;
+    left: 20%;
+    top: 50%;
+    position: absolute;
+    
+}
+
+/*
+#hoverBox:hover, .mainPhoto:hover{
+    visibility:visible;
+}
+*/
+
+.mainPhoto{
+    box-shadow: 10px 10px 5px #ccc;
+    border:2px solid #fff;
+}
+
+/*Hidden to begin with*/
+#mapData{
+    display:none;
+}
+#detailData{
+    display:none;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1.25rem;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.topnav li a.active {
+    background-color: lightblue;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+.logo{
+    height:5vh;
+    width: 5vh;
+}
+
